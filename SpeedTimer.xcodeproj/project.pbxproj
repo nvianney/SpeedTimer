@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C06DB271CCDCB450044C773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB261CCDCB450044C773 /* AppDelegate.swift */; };
+		4C06DB291CCDCB450044C773 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB281CCDCB450044C773 /* TimerViewController.swift */; };
+		4C06DB2B1CCDCB450044C773 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB2A1CCDCB450044C773 /* RecordsViewController.swift */; };
+		4C06DB2E1CCDCB450044C773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB2C1CCDCB450044C773 /* Main.storyboard */; };
+		4C06DB301CCDCB450044C773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB2F1CCDCB450044C773 /* Assets.xcassets */; };
+		4C06DB331CCDCB450044C773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB311CCDCB450044C773 /* LaunchScreen.storyboard */; };
+		4C06DB3E1CCDCB450044C773 /* Cube_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB3D1CCDCB450044C773 /* Cube_TimerTests.swift */; };
+		4C06DB491CCDCB450044C773 /* Cube_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB481CCDCB450044C773 /* Cube_TimerUITests.swift */; };
+		4C06DB591CCEA6560044C773 /* TouchEventGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB581CCEA6560044C773 /* TouchEventGestureRecognizer.swift */; };
+		4C06DB5B1CCED1D90044C773 /* LCDFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB5A1CCED1D90044C773 /* LCDFont.otf */; };
+		4C06DB5D1CCF01470044C773 /* ScrambleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB5C1CCF01470044C773 /* ScrambleGenerator.swift */; };
+		4C3CDD731CD2BBE5003827F4 /* RecordsGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDD721CD2BBE5003827F4 /* RecordsGraphViewController.swift */; };
+		4C3CDD751CD6B68B003827F4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDD741CD6B68B003827F4 /* MoreViewController.swift */; };
+		4C3CDD791CD6C879003827F4 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CDD781CD6C879003827F4 /* Images */; };
+		4C3CDD801CD6E12D003827F4 /* MoreScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CDD7F1CD6E12D003827F4 /* MoreScreen.storyboard */; };
+		4C3CDD851CD70024003827F4 /* RecordsSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDD841CD70024003827F4 /* RecordsSettingTableViewController.swift */; };
+		4C3CDD871CDAAD50003827F4 /* CubeTimerSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDD861CDAAD50003827F4 /* CubeTimerSettingsTableViewController.swift */; };
+		4C3CDD8E1CED39CE003827F4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CDD8C1CED39CE003827F4 /* Interface.storyboard */; };
+		4C3CDD901CED39CE003827F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CDD8F1CED39CE003827F4 /* Assets.xcassets */; };
+		4C3CDD971CED39CE003827F4 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C3CDD961CED39CE003827F4 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C3CDD9E1CED39CE003827F4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDD9D1CED39CE003827F4 /* InterfaceController.swift */; };
+		4C3CDDA01CED39CE003827F4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDD9F1CED39CE003827F4 /* ExtensionDelegate.swift */; };
+		4C3CDDA21CED39CE003827F4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDDA11CED39CE003827F4 /* NotificationController.swift */; };
+		4C3CDDA41CED39CE003827F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3CDDA31CED39CE003827F4 /* Assets.xcassets */; };
+		4C3F8B2E1CD0239500C3A19D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8B2D1CD0239500C3A19D /* UserData.swift */; };
+		4C47BFEB1DA605DB00D3A065 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C47BFE51DA6058000D3A065 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C56BE0B1D10F54700049A3B /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C3CDD8A1CED39CE003827F4 /* Watch.app */; };
+		4CD05D4A1CD07AB0009AD5A7 /* RecordsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C06DB3A1CCDCB450044C773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C06DB1B1CCDCB450044C773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C06DB221CCDCB450044C773;
+			remoteInfo = "Cube Timer";
+		};
+		4C06DB451CCDCB450044C773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C06DB1B1CCDCB450044C773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C06DB221CCDCB450044C773;
+			remoteInfo = "Cube Timer";
+		};
+		4C3CDD981CED39CE003827F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C06DB1B1CCDCB450044C773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3CDD951CED39CE003827F4;
+			remoteInfo = "Watch Extension";
+		};
+		4C47BFE41DA6058000D3A065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C47BFDE1DA6058000D3A065 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		4C47BFE61DA6058000D3A065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C47BFDE1DA6058000D3A065 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120D51D811E6200D14B02;
+			remoteInfo = ChartsRealm;
+		};
+		4C47BFE81DA6058000D3A065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C47BFDE1DA6058000D3A065 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		4C56BE071D10F32400049A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C06DB1B1CCDCB450044C773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3CDD891CED39CE003827F4;
+			remoteInfo = Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C39259C1CFE51940014220B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C47BFEB1DA605DB00D3A065 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3CDDAD1CED39CF003827F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C3CDD971CED39CE003827F4 /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C46B5931CFD40FB00D15192 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C56BE0A1D10F4FB00049A3B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4C56BE0B1D10F54700049A3B /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C06DB231CCDCB450044C773 /* SpeedTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C06DB261CCDCB450044C773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C06DB281CCDCB450044C773 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		4C06DB2A1CCDCB450044C773 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		4C06DB2D1CCDCB450044C773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C06DB2F1CCDCB450044C773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C06DB321CCDCB450044C773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C06DB341CCDCB450044C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C06DB391CCDCB450044C773 /* SpeedTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C06DB3D1CCDCB450044C773 /* Cube_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube_TimerTests.swift; sourceTree = "<group>"; };
+		4C06DB3F1CCDCB450044C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C06DB441CCDCB450044C773 /* SpeedTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C06DB481CCDCB450044C773 /* Cube_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube_TimerUITests.swift; sourceTree = "<group>"; };
+		4C06DB4A1CCDCB450044C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C06DB581CCEA6560044C773 /* TouchEventGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchEventGestureRecognizer.swift; sourceTree = "<group>"; };
+		4C06DB5A1CCED1D90044C773 /* LCDFont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LCDFont.otf; sourceTree = "<group>"; };
+		4C06DB5C1CCF01470044C773 /* ScrambleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrambleGenerator.swift; sourceTree = "<group>"; };
+		4C3CDD721CD2BBE5003827F4 /* RecordsGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsGraphViewController.swift; sourceTree = "<group>"; };
+		4C3CDD741CD6B68B003827F4 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		4C3CDD781CD6C879003827F4 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		4C3CDD7F1CD6E12D003827F4 /* MoreScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MoreScreen.storyboard; sourceTree = "<group>"; };
+		4C3CDD841CD70024003827F4 /* RecordsSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsSettingTableViewController.swift; sourceTree = "<group>"; };
+		4C3CDD861CDAAD50003827F4 /* CubeTimerSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeTimerSettingsTableViewController.swift; sourceTree = "<group>"; };
+		4C3CDD8A1CED39CE003827F4 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3CDD8D1CED39CE003827F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4C3CDD8F1CED39CE003827F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3CDD911CED39CE003827F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3CDD961CED39CE003827F4 /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3CDD9C1CED39CE003827F4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4C3CDD9D1CED39CE003827F4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4C3CDD9F1CED39CE003827F4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4C3CDDA11CED39CE003827F4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4C3CDDA31CED39CE003827F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3CDDA51CED39CE003827F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3F8B2D1CD0239500C3A19D /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		4C47BFDE1DA6058000D3A065 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Frameworks/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C06DB201CCDCB450044C773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06DB361CCDCB450044C773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06DB411CCDCB450044C773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3CDD931CED39CE003827F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C06DB1A1CCDCB450044C773 = {
+			isa = PBXGroup;
+			children = (
+				4C47BFDE1DA6058000D3A065 /* Charts.xcodeproj */,
+				4C3CDD781CD6C879003827F4 /* Images */,
+				4C06DB5A1CCED1D90044C773 /* LCDFont.otf */,
+				4C06DB251CCDCB450044C773 /* SpeedTimer */,
+				4C06DB3C1CCDCB450044C773 /* SpeedTimerTests */,
+				4C06DB471CCDCB450044C773 /* SpeedTimerUITests */,
+				4C3CDD8B1CED39CE003827F4 /* Watch */,
+				4C3CDD9A1CED39CE003827F4 /* Watch Extension */,
+				4C06DB241CCDCB450044C773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C06DB241CCDCB450044C773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DB231CCDCB450044C773 /* SpeedTimer.app */,
+				4C06DB391CCDCB450044C773 /* SpeedTimerTests.xctest */,
+				4C06DB441CCDCB450044C773 /* SpeedTimerUITests.xctest */,
+				4C3CDD8A1CED39CE003827F4 /* Watch.app */,
+				4C3CDD961CED39CE003827F4 /* Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C06DB251CCDCB450044C773 /* SpeedTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDD831CD6FFEC003827F4 /* SettingsController */,
+				4C06DB341CCDCB450044C773 /* Info.plist */,
+				4C06DB261CCDCB450044C773 /* AppDelegate.swift */,
+				4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */,
+				4C06DB2A1CCDCB450044C773 /* RecordsViewController.swift */,
+				4C06DB5C1CCF01470044C773 /* ScrambleGenerator.swift */,
+				4C06DB281CCDCB450044C773 /* TimerViewController.swift */,
+				4C06DB581CCEA6560044C773 /* TouchEventGestureRecognizer.swift */,
+				4C3F8B2D1CD0239500C3A19D /* UserData.swift */,
+				4C06DB2F1CCDCB450044C773 /* Assets.xcassets */,
+				4C06DB311CCDCB450044C773 /* LaunchScreen.storyboard */,
+				4C06DB2C1CCDCB450044C773 /* Main.storyboard */,
+				4C3CDD7F1CD6E12D003827F4 /* MoreScreen.storyboard */,
+				4C3CDD721CD2BBE5003827F4 /* RecordsGraphViewController.swift */,
+				4C3CDD741CD6B68B003827F4 /* MoreViewController.swift */,
+			);
+			name = SpeedTimer;
+			path = "Cube Timer";
+			sourceTree = "<group>";
+		};
+		4C06DB3C1CCDCB450044C773 /* SpeedTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DB3D1CCDCB450044C773 /* Cube_TimerTests.swift */,
+				4C06DB3F1CCDCB450044C773 /* Info.plist */,
+			);
+			name = SpeedTimerTests;
+			path = "Cube TimerTests";
+			sourceTree = "<group>";
+		};
+		4C06DB471CCDCB450044C773 /* SpeedTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DB481CCDCB450044C773 /* Cube_TimerUITests.swift */,
+				4C06DB4A1CCDCB450044C773 /* Info.plist */,
+			);
+			name = SpeedTimerUITests;
+			path = "Cube TimerUITests";
+			sourceTree = "<group>";
+		};
+		4C3CDD831CD6FFEC003827F4 /* SettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDD841CD70024003827F4 /* RecordsSettingTableViewController.swift */,
+				4C3CDD861CDAAD50003827F4 /* CubeTimerSettingsTableViewController.swift */,
+			);
+			name = SettingsController;
+			sourceTree = "<group>";
+		};
+		4C3CDD8B1CED39CE003827F4 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDD8C1CED39CE003827F4 /* Interface.storyboard */,
+				4C3CDD8F1CED39CE003827F4 /* Assets.xcassets */,
+				4C3CDD911CED39CE003827F4 /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		4C3CDD9A1CED39CE003827F4 /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDD9D1CED39CE003827F4 /* InterfaceController.swift */,
+				4C3CDD9F1CED39CE003827F4 /* ExtensionDelegate.swift */,
+				4C3CDDA11CED39CE003827F4 /* NotificationController.swift */,
+				4C3CDDA31CED39CE003827F4 /* Assets.xcassets */,
+				4C3CDDA51CED39CE003827F4 /* Info.plist */,
+				4C3CDD9B1CED39CE003827F4 /* Supporting Files */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		4C3CDD9B1CED39CE003827F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDD9C1CED39CE003827F4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C47BFDF1DA6058000D3A065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C47BFE51DA6058000D3A065 /* Charts.framework */,
+				4C47BFE71DA6058000D3A065 /* ChartsRealm.framework */,
+				4C47BFE91DA6058000D3A065 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C06DB221CCDCB450044C773 /* SpeedTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C06DB4D1CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimer" */;
+			buildPhases = (
+				4C06DB1F1CCDCB450044C773 /* Sources */,
+				4C06DB201CCDCB450044C773 /* Frameworks */,
+				4C06DB211CCDCB450044C773 /* Resources */,
+				4C39259C1CFE51940014220B /* Embed Frameworks */,
+				4C56BE0A1D10F4FB00049A3B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C56BE081D10F32400049A3B /* PBXTargetDependency */,
+			);
+			name = SpeedTimer;
+			productName = "Cube Timer";
+			productReference = 4C06DB231CCDCB450044C773 /* SpeedTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C06DB381CCDCB450044C773 /* SpeedTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C06DB501CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimerTests" */;
+			buildPhases = (
+				4C06DB351CCDCB450044C773 /* Sources */,
+				4C06DB361CCDCB450044C773 /* Frameworks */,
+				4C06DB371CCDCB450044C773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C06DB3B1CCDCB450044C773 /* PBXTargetDependency */,
+			);
+			name = SpeedTimerTests;
+			productName = "Cube TimerTests";
+			productReference = 4C06DB391CCDCB450044C773 /* SpeedTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C06DB431CCDCB450044C773 /* SpeedTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C06DB531CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimerUITests" */;
+			buildPhases = (
+				4C06DB401CCDCB450044C773 /* Sources */,
+				4C06DB411CCDCB450044C773 /* Frameworks */,
+				4C06DB421CCDCB450044C773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C06DB461CCDCB450044C773 /* PBXTargetDependency */,
+			);
+			name = SpeedTimerUITests;
+			productName = "Cube TimerUITests";
+			productReference = 4C06DB441CCDCB450044C773 /* SpeedTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4C3CDD891CED39CE003827F4 /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3CDDAE1CED39CF003827F4 /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				4C3CDD881CED39CE003827F4 /* Resources */,
+				4C3CDDAD1CED39CF003827F4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3CDD991CED39CE003827F4 /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 4C3CDD8A1CED39CE003827F4 /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4C3CDD951CED39CE003827F4 /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3CDDAA1CED39CF003827F4 /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				4C3CDD921CED39CE003827F4 /* Sources */,
+				4C3CDD931CED39CE003827F4 /* Frameworks */,
+				4C3CDD941CED39CE003827F4 /* Resources */,
+				4C46B5931CFD40FB00D15192 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = 4C3CDD961CED39CE003827F4 /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C06DB1B1CCDCB450044C773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MatthewWorld;
+				TargetAttributes = {
+					4C06DB221CCDCB450044C773 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4HM2HG7GK8;
+						LastSwiftMigration = 0800;
+					};
+					4C06DB381CCDCB450044C773 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 4C06DB221CCDCB450044C773;
+					};
+					4C06DB431CCDCB450044C773 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 4C06DB221CCDCB450044C773;
+					};
+					4C3CDD891CED39CE003827F4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4C3CDD951CED39CE003827F4 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 4C06DB1E1CCDCB450044C773 /* Build configuration list for PBXProject "SpeedTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C06DB1A1CCDCB450044C773;
+			productRefGroup = 4C06DB241CCDCB450044C773 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C47BFDF1DA6058000D3A065 /* Products */;
+					ProjectRef = 4C47BFDE1DA6058000D3A065 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C06DB221CCDCB450044C773 /* SpeedTimer */,
+				4C06DB381CCDCB450044C773 /* SpeedTimerTests */,
+				4C06DB431CCDCB450044C773 /* SpeedTimerUITests */,
+				4C3CDD891CED39CE003827F4 /* Watch */,
+				4C3CDD951CED39CE003827F4 /* Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C47BFE51DA6058000D3A065 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 4C47BFE41DA6058000D3A065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C47BFE71DA6058000D3A065 /* ChartsRealm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsRealm.framework;
+			remoteRef = 4C47BFE61DA6058000D3A065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C47BFE91DA6058000D3A065 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 4C47BFE81DA6058000D3A065 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C06DB211CCDCB450044C773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3CDD791CD6C879003827F4 /* Images in Resources */,
+				4C06DB331CCDCB450044C773 /* LaunchScreen.storyboard in Resources */,
+				4C06DB301CCDCB450044C773 /* Assets.xcassets in Resources */,
+				4C06DB2E1CCDCB450044C773 /* Main.storyboard in Resources */,
+				4C06DB5B1CCED1D90044C773 /* LCDFont.otf in Resources */,
+				4C3CDD801CD6E12D003827F4 /* MoreScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06DB371CCDCB450044C773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06DB421CCDCB450044C773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3CDD881CED39CE003827F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3CDD901CED39CE003827F4 /* Assets.xcassets in Resources */,
+				4C3CDD8E1CED39CE003827F4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3CDD941CED39CE003827F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3CDDA41CED39CE003827F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C06DB1F1CCDCB450044C773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3CDD751CD6B68B003827F4 /* MoreViewController.swift in Sources */,
+				4C3CDD871CDAAD50003827F4 /* CubeTimerSettingsTableViewController.swift in Sources */,
+				4C3F8B2E1CD0239500C3A19D /* UserData.swift in Sources */,
+				4C3CDD851CD70024003827F4 /* RecordsSettingTableViewController.swift in Sources */,
+				4C06DB5D1CCF01470044C773 /* ScrambleGenerator.swift in Sources */,
+				4C06DB591CCEA6560044C773 /* TouchEventGestureRecognizer.swift in Sources */,
+				4C06DB2B1CCDCB450044C773 /* RecordsViewController.swift in Sources */,
+				4C06DB271CCDCB450044C773 /* AppDelegate.swift in Sources */,
+				4C3CDD731CD2BBE5003827F4 /* RecordsGraphViewController.swift in Sources */,
+				4C06DB291CCDCB450044C773 /* TimerViewController.swift in Sources */,
+				4CD05D4A1CD07AB0009AD5A7 /* RecordsTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06DB351CCDCB450044C773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C06DB3E1CCDCB450044C773 /* Cube_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06DB401CCDCB450044C773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C06DB491CCDCB450044C773 /* Cube_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3CDD921CED39CE003827F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3CDDA21CED39CE003827F4 /* NotificationController.swift in Sources */,
+				4C3CDDA01CED39CE003827F4 /* ExtensionDelegate.swift in Sources */,
+				4C3CDD9E1CED39CE003827F4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C06DB3B1CCDCB450044C773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C06DB221CCDCB450044C773 /* SpeedTimer */;
+			targetProxy = 4C06DB3A1CCDCB450044C773 /* PBXContainerItemProxy */;
+		};
+		4C06DB461CCDCB450044C773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C06DB221CCDCB450044C773 /* SpeedTimer */;
+			targetProxy = 4C06DB451CCDCB450044C773 /* PBXContainerItemProxy */;
+		};
+		4C3CDD991CED39CE003827F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3CDD951CED39CE003827F4 /* Watch Extension */;
+			targetProxy = 4C3CDD981CED39CE003827F4 /* PBXContainerItemProxy */;
+		};
+		4C56BE081D10F32400049A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3CDD891CED39CE003827F4 /* Watch */;
+			targetProxy = 4C56BE071D10F32400049A3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C06DB2C1CCDCB450044C773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C06DB2D1CCDCB450044C773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C06DB311CCDCB450044C773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C06DB321CCDCB450044C773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3CDD8C1CED39CE003827F4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3CDD8D1CED39CE003827F4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C06DB4B1CCDCB450044C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C06DB4C1CCDCB450044C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C06DB4E1CCDCB450044C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Cube Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd0f0062-555d-4519-b401-433f9e447c1c";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C06DB4F1CCDCB450044C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Nguyen (4HM2HG7GK8)";
+				INFOPLIST_FILE = "Cube Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd0f0062-555d-4519-b401-433f9e447c1c";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C06DB511CCDCB450044C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cube TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTimer.app/SpeedTimer";
+			};
+			name = Debug;
+		};
+		4C06DB521CCDCB450044C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cube TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTimer.app/SpeedTimer";
+			};
+			name = Release;
+		};
+		4C06DB541CCDCB450044C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cube TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cube Timer";
+			};
+			name = Debug;
+		};
+		4C06DB551CCDCB450044C773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cube TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cube Timer";
+			};
+			name = Release;
+		};
+		4C3CDDAB1CED39CF003827F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "0030dce8-d399-4684-bc71-77280d183cf4";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4C3CDDAC1CED39CF003827F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Nguyen (4HM2HG7GK8)";
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "0030dce8-d399-4684-bc71-77280d183cf4";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4C3CDDAF1CED39CF003827F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44cc5d9c-3b47-46ae-8c54-53566ef577af";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4C3CDDB01CED39CF003827F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Nguyen (4HM2HG7GK8)";
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44cc5d9c-3b47-46ae-8c54-53566ef577af";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C06DB1E1CCDCB450044C773 /* Build configuration list for PBXProject "SpeedTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C06DB4B1CCDCB450044C773 /* Debug */,
+				4C06DB4C1CCDCB450044C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C06DB4D1CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C06DB4E1CCDCB450044C773 /* Debug */,
+				4C06DB4F1CCDCB450044C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C06DB501CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C06DB511CCDCB450044C773 /* Debug */,
+				4C06DB521CCDCB450044C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C06DB531CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C06DB541CCDCB450044C773 /* Debug */,
+				4C06DB551CCDCB450044C773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3CDDAA1CED39CF003827F4 /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3CDDAB1CED39CF003827F4 /* Debug */,
+				4C3CDDAC1CED39CF003827F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3CDDAE1CED39CF003827F4 /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3CDDAF1CED39CF003827F4 /* Debug */,
+				4C3CDDB01CED39CF003827F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C06DB1B1CCDCB450044C773 /* Project object */;
+}
