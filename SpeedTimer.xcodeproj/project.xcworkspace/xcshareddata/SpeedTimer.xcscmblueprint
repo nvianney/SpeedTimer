@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4BF4D035D7075700A56D52DD694E0EE9D10557D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6862DE917C881150488A59BF99974E035C03DDFB" : 1,
+    "4BF4D035D7075700A56D52DD694E0EE9D10557D5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "80239BD2-988D-466F-AD1A-EAD9A2B1FEE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6862DE917C881150488A59BF99974E035C03DDFB" : "Frameworks\/Charts-master\/",
+    "4BF4D035D7075700A56D52DD694E0EE9D10557D5" : "Cube%20Timer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SpeedTimer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SpeedTimer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "homeserver:iOS_SpeedTimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BF4D035D7075700A56D52DD694E0EE9D10557D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "homeserver:Framework_iOSCharts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6862DE917C881150488A59BF99974E035C03DDFB"
+    }
+  ]
+}

@@ -13,8 +13,8 @@
 		4C06DB2E1CCDCB450044C773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB2C1CCDCB450044C773 /* Main.storyboard */; };
 		4C06DB301CCDCB450044C773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB2F1CCDCB450044C773 /* Assets.xcassets */; };
 		4C06DB331CCDCB450044C773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB311CCDCB450044C773 /* LaunchScreen.storyboard */; };
-		4C06DB3E1CCDCB450044C773 /* Cube_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB3D1CCDCB450044C773 /* Cube_TimerTests.swift */; };
-		4C06DB491CCDCB450044C773 /* Cube_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB481CCDCB450044C773 /* Cube_TimerUITests.swift */; };
+		4C06DB3E1CCDCB450044C773 /* SpeedTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB3D1CCDCB450044C773 /* SpeedTimerTests.swift */; };
+		4C06DB491CCDCB450044C773 /* SpeedTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB481CCDCB450044C773 /* SpeedTimerUITests.swift */; };
 		4C06DB591CCEA6560044C773 /* TouchEventGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB581CCEA6560044C773 /* TouchEventGestureRecognizer.swift */; };
 		4C06DB5B1CCED1D90044C773 /* LCDFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DB5A1CCED1D90044C773 /* LCDFont.otf */; };
 		4C06DB5D1CCF01470044C773 /* ScrambleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB5C1CCF01470044C773 /* ScrambleGenerator.swift */; };
@@ -34,7 +34,6 @@
 		4C3F8B2E1CD0239500C3A19D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8B2D1CD0239500C3A19D /* UserData.swift */; };
 		4C56BE0B1D10F54700049A3B /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C3CDD8A1CED39CE003827F4 /* Watch.app */; };
 		4CD05D4A1CD07AB0009AD5A7 /* RecordsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */; };
-		4CFFED941DAC1604005C22D2 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFFED8F1DAC15D3005C22D2 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +42,14 @@
 			containerPortal = 4C06DB1B1CCDCB450044C773 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4C06DB221CCDCB450044C773;
-			remoteInfo = "Cube Timer";
+			remoteInfo = SpeedTimer;
 		};
 		4C06DB451CCDCB450044C773 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C06DB1B1CCDCB450044C773 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4C06DB221CCDCB450044C773;
-			remoteInfo = "Cube Timer";
+			remoteInfo = SpeedTimer;
 		};
 		4C3CDD981CED39CE003827F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,23 +65,23 @@
 			remoteGlobalIDString = 4C3CDD891CED39CE003827F4;
 			remoteInfo = Watch;
 		};
-		4CFFED8E1DAC15D3005C22D2 /* PBXContainerItemProxy */ = {
+		4CE4FE551E8EFE2600966100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CFFED881DAC15D2005C22D2 /* Charts.xcodeproj */;
+			containerPortal = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F241D8110E600722320;
 			remoteInfo = Charts;
 		};
-		4CFFED901DAC15D3005C22D2 /* PBXContainerItemProxy */ = {
+		4CE4FE571E8EFE2600966100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CFFED881DAC15D2005C22D2 /* Charts.xcodeproj */;
+			containerPortal = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06B120D51D811E6200D14B02;
 			remoteInfo = ChartsRealm;
 		};
-		4CFFED921DAC15D3005C22D2 /* PBXContainerItemProxy */ = {
+		4CE4FE591E8EFE2600966100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CFFED881DAC15D2005C22D2 /* Charts.xcodeproj */;
+			containerPortal = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 06165F2E1D8110E600722320;
 			remoteInfo = ChartsTests;
@@ -96,7 +95,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4CFFED941DAC1604005C22D2 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,10 +143,10 @@
 		4C06DB321CCDCB450044C773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C06DB341CCDCB450044C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C06DB391CCDCB450044C773 /* SpeedTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C06DB3D1CCDCB450044C773 /* Cube_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube_TimerTests.swift; sourceTree = "<group>"; };
+		4C06DB3D1CCDCB450044C773 /* SpeedTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTimerTests.swift; sourceTree = "<group>"; };
 		4C06DB3F1CCDCB450044C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C06DB441CCDCB450044C773 /* SpeedTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C06DB481CCDCB450044C773 /* Cube_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube_TimerUITests.swift; sourceTree = "<group>"; };
+		4C06DB481CCDCB450044C773 /* SpeedTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTimerUITests.swift; sourceTree = "<group>"; };
 		4C06DB4A1CCDCB450044C773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C06DB581CCEA6560044C773 /* TouchEventGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchEventGestureRecognizer.swift; sourceTree = "<group>"; };
 		4C06DB5A1CCED1D90044C773 /* LCDFont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LCDFont.otf; sourceTree = "<group>"; };
@@ -172,7 +170,7 @@
 		4C3CDDA51CED39CE003827F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C3F8B2D1CD0239500C3A19D /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableCell.swift; sourceTree = "<group>"; };
-		4CFFED881DAC15D2005C22D2 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Frameworks/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Frameworks/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +208,7 @@
 		4C06DB1A1CCDCB450044C773 = {
 			isa = PBXGroup;
 			children = (
-				4CFFED881DAC15D2005C22D2 /* Charts.xcodeproj */,
+				4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */,
 				4C3CDD781CD6C879003827F4 /* Images */,
 				4C06DB5A1CCED1D90044C773 /* LCDFont.otf */,
 				4C06DB251CCDCB450044C773 /* SpeedTimer */,
@@ -253,28 +251,25 @@
 				4C3CDD721CD2BBE5003827F4 /* RecordsGraphViewController.swift */,
 				4C3CDD741CD6B68B003827F4 /* MoreViewController.swift */,
 			);
-			name = SpeedTimer;
-			path = "Cube Timer";
+			path = SpeedTimer;
 			sourceTree = "<group>";
 		};
 		4C06DB3C1CCDCB450044C773 /* SpeedTimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4C06DB3D1CCDCB450044C773 /* Cube_TimerTests.swift */,
+				4C06DB3D1CCDCB450044C773 /* SpeedTimerTests.swift */,
 				4C06DB3F1CCDCB450044C773 /* Info.plist */,
 			);
-			name = SpeedTimerTests;
-			path = "Cube TimerTests";
+			path = SpeedTimerTests;
 			sourceTree = "<group>";
 		};
 		4C06DB471CCDCB450044C773 /* SpeedTimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4C06DB481CCDCB450044C773 /* Cube_TimerUITests.swift */,
+				4C06DB481CCDCB450044C773 /* SpeedTimerUITests.swift */,
 				4C06DB4A1CCDCB450044C773 /* Info.plist */,
 			);
-			name = SpeedTimerUITests;
-			path = "Cube TimerUITests";
+			path = SpeedTimerUITests;
 			sourceTree = "<group>";
 		};
 		4C3CDD831CD6FFEC003827F4 /* SettingsController */ = {
@@ -317,12 +312,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4CFFED891DAC15D2005C22D2 /* Products */ = {
+		4CE4FE501E8EFE2600966100 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CFFED8F1DAC15D3005C22D2 /* Charts.framework */,
-				4CFFED911DAC15D3005C22D2 /* ChartsRealm.framework */,
-				4CFFED931DAC15D3005C22D2 /* ChartsTests.xctest */,
+				4CE4FE561E8EFE2600966100 /* Charts.framework */,
+				4CE4FE581E8EFE2600966100 /* ChartsRealm.framework */,
+				4CE4FE5A1E8EFE2600966100 /* ChartsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,7 +341,7 @@
 				4C56BE081D10F32400049A3B /* PBXTargetDependency */,
 			);
 			name = SpeedTimer;
-			productName = "Cube Timer";
+			productName = SpeedTimer;
 			productReference = 4C06DB231CCDCB450044C773 /* SpeedTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -364,7 +359,7 @@
 				4C06DB3B1CCDCB450044C773 /* PBXTargetDependency */,
 			);
 			name = SpeedTimerTests;
-			productName = "Cube TimerTests";
+			productName = SpeedTimerTests;
 			productReference = 4C06DB391CCDCB450044C773 /* SpeedTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -382,7 +377,7 @@
 				4C06DB461CCDCB450044C773 /* PBXTargetDependency */,
 			);
 			name = SpeedTimerUITests;
-			productName = "Cube TimerUITests";
+			productName = SpeedTimerUITests;
 			productReference = 4C06DB441CCDCB450044C773 /* SpeedTimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -433,8 +428,8 @@
 				TargetAttributes = {
 					4C06DB221CCDCB450044C773 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 4HM2HG7GK8;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					4C06DB381CCDCB450044C773 = {
 						CreatedOnToolsVersion = 7.3;
@@ -468,8 +463,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 4CFFED891DAC15D2005C22D2 /* Products */;
-					ProjectRef = 4CFFED881DAC15D2005C22D2 /* Charts.xcodeproj */;
+					ProductGroup = 4CE4FE501E8EFE2600966100 /* Products */;
+					ProjectRef = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -484,25 +479,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4CFFED8F1DAC15D3005C22D2 /* Charts.framework */ = {
+		4CE4FE561E8EFE2600966100 /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 4CFFED8E1DAC15D3005C22D2 /* PBXContainerItemProxy */;
+			remoteRef = 4CE4FE551E8EFE2600966100 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4CFFED911DAC15D3005C22D2 /* ChartsRealm.framework */ = {
+		4CE4FE581E8EFE2600966100 /* ChartsRealm.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ChartsRealm.framework;
-			remoteRef = 4CFFED901DAC15D3005C22D2 /* PBXContainerItemProxy */;
+			remoteRef = 4CE4FE571E8EFE2600966100 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4CFFED931DAC15D3005C22D2 /* ChartsTests.xctest */ = {
+		4CE4FE5A1E8EFE2600966100 /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 4CFFED921DAC15D3005C22D2 /* PBXContainerItemProxy */;
+			remoteRef = 4CE4FE591E8EFE2600966100 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -577,7 +572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C06DB3E1CCDCB450044C773 /* Cube_TimerTests.swift in Sources */,
+				4C06DB3E1CCDCB450044C773 /* SpeedTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C06DB491CCDCB450044C773 /* Cube_TimerUITests.swift in Sources */,
+				4C06DB491CCDCB450044C773 /* SpeedTimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,11 +743,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
-				INFOPLIST_FILE = "Cube Timer/Info.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpeedTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fd0f0062-555d-4519-b401-433f9e447c1c";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -763,11 +761,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Nguyen (4HM2HG7GK8)";
-				INFOPLIST_FILE = "Cube Timer/Info.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpeedTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fd0f0062-555d-4519-b401-433f9e447c1c";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -776,9 +777,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Cube TimerTests/Info.plist";
+				INFOPLIST_FILE = SpeedTimerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTimer.app/SpeedTimer";
@@ -789,9 +790,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Cube TimerTests/Info.plist";
+				INFOPLIST_FILE = SpeedTimerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTimer.app/SpeedTimer";
@@ -801,24 +802,24 @@
 		4C06DB541CCDCB450044C773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Cube TimerUITests/Info.plist";
+				INFOPLIST_FILE = SpeedTimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Cube Timer";
+				TEST_TARGET_NAME = SpeedTimer;
 			};
 			name = Debug;
 		};
 		4C06DB551CCDCB450044C773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Cube TimerUITests/Info.plist";
+				INFOPLIST_FILE = SpeedTimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewworld.Cube-TimerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewworld.SpeedTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Cube Timer";
+				TEST_TARGET_NAME = SpeedTimer;
 			};
 			name = Release;
 		};
