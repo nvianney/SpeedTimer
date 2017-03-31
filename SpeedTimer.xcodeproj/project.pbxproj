@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2708EDB81702D71C5D62D139 /* Pods_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD0D57B3CD77CBD626EB484 /* Pods_Watch.framework */; };
 		4C06DB271CCDCB450044C773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB261CCDCB450044C773 /* AppDelegate.swift */; };
 		4C06DB291CCDCB450044C773 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB281CCDCB450044C773 /* TimerViewController.swift */; };
 		4C06DB2B1CCDCB450044C773 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DB2A1CCDCB450044C773 /* RecordsViewController.swift */; };
@@ -34,6 +35,10 @@
 		4C3F8B2E1CD0239500C3A19D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F8B2D1CD0239500C3A19D /* UserData.swift */; };
 		4C56BE0B1D10F54700049A3B /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C3CDD8A1CED39CE003827F4 /* Watch.app */; };
 		4CD05D4A1CD07AB0009AD5A7 /* RecordsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */; };
+		4E713FD40797A059FEF973A0 /* Pods_SpeedTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E96955FF19752A58448FF44 /* Pods_SpeedTimerUITests.framework */; };
+		6224C7F4893DCBCF6C7D8135 /* Pods_SpeedTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AD8EBEE4EFEC55DED3D1C /* Pods_SpeedTimerTests.framework */; };
+		9E4298F4B204206BC86890C0 /* Pods_SpeedTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33ACBD191242A971DE89E777 /* Pods_SpeedTimer.framework */; };
+		B6CD5D39014C2EE6CED73981 /* Pods_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FE33A6AA9F3279196C0D2B /* Pods_Watch_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,27 +69,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4C3CDD891CED39CE003827F4;
 			remoteInfo = Watch;
-		};
-		4CE4FE551E8EFE2600966100 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F241D8110E600722320;
-			remoteInfo = Charts;
-		};
-		4CE4FE571E8EFE2600966100 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06B120D51D811E6200D14B02;
-			remoteInfo = ChartsRealm;
-		};
-		4CE4FE591E8EFE2600966100 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F2E1D8110E600722320;
-			remoteInfo = ChartsTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -134,6 +118,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		33ACBD191242A971DE89E777 /* Pods_SpeedTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A48CD7F7D5C6A3CD83293A /* Pods-Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watch/Pods-Watch.release.xcconfig"; sourceTree = "<group>"; };
 		4C06DB231CCDCB450044C773 /* SpeedTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C06DB261CCDCB450044C773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C06DB281CCDCB450044C773 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -170,7 +156,19 @@
 		4C3CDDA51CED39CE003827F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C3F8B2D1CD0239500C3A19D /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableCell.swift; sourceTree = "<group>"; };
-		4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Frameworks/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		4FA9371829A2E3E0A19C9B98 /* Pods-SpeedTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTimerTests/Pods-SpeedTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5424A3D7D4A73319BB7DD60E /* Pods-SpeedTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTimer/Pods-SpeedTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		6EFA356D4958A72F2512A554 /* Pods-SpeedTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTimerTests/Pods-SpeedTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A7AD8EBEE4EFEC55DED3D1C /* Pods_SpeedTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3FBF82FE2FD70BC6E957F3 /* Pods-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8E96955FF19752A58448FF44 /* Pods_SpeedTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD0D57B3CD77CBD626EB484 /* Pods_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FE33A6AA9F3279196C0D2B /* Pods_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B228AD79EB4E18C36BEBE3C8 /* Pods-SpeedTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTimer/Pods-SpeedTimer.release.xcconfig"; sourceTree = "<group>"; };
+		C1C7C70945B2C6EBA59704E8 /* Pods-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E126169146852BAA0FAB89B2 /* Pods-SpeedTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTimerUITests/Pods-SpeedTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A51E149476DB5740B4494B /* Pods-SpeedTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTimerUITests/Pods-SpeedTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4D9B972447C3B972B4C9DAB /* Pods-Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watch/Pods-Watch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4298F4B204206BC86890C0 /* Pods_SpeedTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6224C7F4893DCBCF6C7D8135 /* Pods_SpeedTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E713FD40797A059FEF973A0 /* Pods_SpeedTimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,16 +200,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CD5D39014C2EE6CED73981 /* Pods_Watch_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C204103133C4220D12A22C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2708EDB81702D71C5D62D139 /* Pods_Watch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		139BF4586E06F727463B3EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33ACBD191242A971DE89E777 /* Pods_SpeedTimer.framework */,
+				7A7AD8EBEE4EFEC55DED3D1C /* Pods_SpeedTimerTests.framework */,
+				8E96955FF19752A58448FF44 /* Pods_SpeedTimerUITests.framework */,
+				9AD0D57B3CD77CBD626EB484 /* Pods_Watch.framework */,
+				B1FE33A6AA9F3279196C0D2B /* Pods_Watch_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		284632A6BE0E41EF85BF6A54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5424A3D7D4A73319BB7DD60E /* Pods-SpeedTimer.debug.xcconfig */,
+				B228AD79EB4E18C36BEBE3C8 /* Pods-SpeedTimer.release.xcconfig */,
+				6EFA356D4958A72F2512A554 /* Pods-SpeedTimerTests.debug.xcconfig */,
+				4FA9371829A2E3E0A19C9B98 /* Pods-SpeedTimerTests.release.xcconfig */,
+				E126169146852BAA0FAB89B2 /* Pods-SpeedTimerUITests.debug.xcconfig */,
+				F4A51E149476DB5740B4494B /* Pods-SpeedTimerUITests.release.xcconfig */,
+				F4D9B972447C3B972B4C9DAB /* Pods-Watch.debug.xcconfig */,
+				47A48CD7F7D5C6A3CD83293A /* Pods-Watch.release.xcconfig */,
+				C1C7C70945B2C6EBA59704E8 /* Pods-Watch Extension.debug.xcconfig */,
+				8B3FBF82FE2FD70BC6E957F3 /* Pods-Watch Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C06DB1A1CCDCB450044C773 = {
 			isa = PBXGroup;
 			children = (
-				4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */,
 				4C3CDD781CD6C879003827F4 /* Images */,
 				4C06DB5A1CCED1D90044C773 /* LCDFont.otf */,
 				4C06DB251CCDCB450044C773 /* SpeedTimer */,
@@ -217,6 +255,8 @@
 				4C3CDD8B1CED39CE003827F4 /* Watch */,
 				4C3CDD9A1CED39CE003827F4 /* Watch Extension */,
 				4C06DB241CCDCB450044C773 /* Products */,
+				284632A6BE0E41EF85BF6A54 /* Pods */,
+				139BF4586E06F727463B3EF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,9 +275,11 @@
 		4C06DB251CCDCB450044C773 /* SpeedTimer */ = {
 			isa = PBXGroup;
 			children = (
-				4C3CDD831CD6FFEC003827F4 /* SettingsController */,
 				4C06DB341CCDCB450044C773 /* Info.plist */,
+				4C3CDD7F1CD6E12D003827F4 /* MoreScreen.storyboard */,
 				4C06DB261CCDCB450044C773 /* AppDelegate.swift */,
+				4C3CDD741CD6B68B003827F4 /* MoreViewController.swift */,
+				4C3CDD721CD2BBE5003827F4 /* RecordsGraphViewController.swift */,
 				4CD05D491CD07AB0009AD5A7 /* RecordsTableCell.swift */,
 				4C06DB2A1CCDCB450044C773 /* RecordsViewController.swift */,
 				4C06DB5C1CCF01470044C773 /* ScrambleGenerator.swift */,
@@ -247,9 +289,7 @@
 				4C06DB2F1CCDCB450044C773 /* Assets.xcassets */,
 				4C06DB311CCDCB450044C773 /* LaunchScreen.storyboard */,
 				4C06DB2C1CCDCB450044C773 /* Main.storyboard */,
-				4C3CDD7F1CD6E12D003827F4 /* MoreScreen.storyboard */,
-				4C3CDD721CD2BBE5003827F4 /* RecordsGraphViewController.swift */,
-				4C3CDD741CD6B68B003827F4 /* MoreViewController.swift */,
+				4C3CDD831CD6FFEC003827F4 /* SettingsController */,
 			);
 			path = SpeedTimer;
 			sourceTree = "<group>";
@@ -312,16 +352,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4CE4FE501E8EFE2600966100 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CE4FE561E8EFE2600966100 /* Charts.framework */,
-				4CE4FE581E8EFE2600966100 /* ChartsRealm.framework */,
-				4CE4FE5A1E8EFE2600966100 /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -329,11 +359,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C06DB4D1CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimer" */;
 			buildPhases = (
+				E6AAA65CB1DE0BA049389239 /* [CP] Check Pods Manifest.lock */,
 				4C06DB1F1CCDCB450044C773 /* Sources */,
 				4C06DB201CCDCB450044C773 /* Frameworks */,
 				4C06DB211CCDCB450044C773 /* Resources */,
 				4C39259C1CFE51940014220B /* Embed Frameworks */,
 				4C56BE0A1D10F4FB00049A3B /* Embed Watch Content */,
+				0411B0F2E98FB4D6C5199E76 /* [CP] Embed Pods Frameworks */,
+				7E33CC04B1EEE362A29603D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -349,9 +382,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C06DB501CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimerTests" */;
 			buildPhases = (
+				C88FA2D32AEEBBF33F36FB17 /* [CP] Check Pods Manifest.lock */,
 				4C06DB351CCDCB450044C773 /* Sources */,
 				4C06DB361CCDCB450044C773 /* Frameworks */,
 				4C06DB371CCDCB450044C773 /* Resources */,
+				7B4B3787DA947F70464CC4DC /* [CP] Embed Pods Frameworks */,
+				E62B23D4FEA022A378B30253 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C06DB531CCDCB450044C773 /* Build configuration list for PBXNativeTarget "SpeedTimerUITests" */;
 			buildPhases = (
+				27F3BB6ED30C46CD5419E268 /* [CP] Check Pods Manifest.lock */,
 				4C06DB401CCDCB450044C773 /* Sources */,
 				4C06DB411CCDCB450044C773 /* Frameworks */,
 				4C06DB421CCDCB450044C773 /* Resources */,
+				52E1D8260CF7058BE6D060BA /* [CP] Embed Pods Frameworks */,
+				52CF9EE67E75C1CCDC90267E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,8 +424,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C3CDDAE1CED39CF003827F4 /* Build configuration list for PBXNativeTarget "Watch" */;
 			buildPhases = (
+				E5510812D0ED50B2D5E447D4 /* [CP] Check Pods Manifest.lock */,
 				4C3CDD881CED39CE003827F4 /* Resources */,
 				4C3CDDAD1CED39CF003827F4 /* Embed App Extensions */,
+				C204103133C4220D12A22C9F /* Frameworks */,
+				DF4C87038B1BED59E5341B58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -402,10 +444,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C3CDDAA1CED39CF003827F4 /* Build configuration list for PBXNativeTarget "Watch Extension" */;
 			buildPhases = (
+				863D5AA2FC3CCFFE604F8721 /* [CP] Check Pods Manifest.lock */,
 				4C3CDD921CED39CE003827F4 /* Sources */,
 				4C3CDD931CED39CE003827F4 /* Frameworks */,
 				4C3CDD941CED39CE003827F4 /* Resources */,
 				4C46B5931CFD40FB00D15192 /* Embed Frameworks */,
+				E9AEE80755DD26063C9CD154 /* [CP] Embed Pods Frameworks */,
+				31828667C32A3694ADB83E8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -461,12 +506,6 @@
 			mainGroup = 4C06DB1A1CCDCB450044C773;
 			productRefGroup = 4C06DB241CCDCB450044C773 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4CE4FE501E8EFE2600966100 /* Products */;
-					ProjectRef = 4CE4FE4F1E8EFE2600966100 /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4C06DB221CCDCB450044C773 /* SpeedTimer */,
@@ -477,30 +516,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4CE4FE561E8EFE2600966100 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 4CE4FE551E8EFE2600966100 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CE4FE581E8EFE2600966100 /* ChartsRealm.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ChartsRealm.framework;
-			remoteRef = 4CE4FE571E8EFE2600966100 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4CE4FE5A1E8EFE2600966100 /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 4CE4FE591E8EFE2600966100 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4C06DB211CCDCB450044C773 /* Resources */ = {
@@ -548,6 +563,219 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0411B0F2E98FB4D6C5199E76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTimer/Pods-SpeedTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27F3BB6ED30C46CD5419E268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31828667C32A3694ADB83E8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52CF9EE67E75C1CCDC90267E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTimerUITests/Pods-SpeedTimerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E1D8260CF7058BE6D060BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTimerUITests/Pods-SpeedTimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4B3787DA947F70464CC4DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTimerTests/Pods-SpeedTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E33CC04B1EEE362A29603D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTimer/Pods-SpeedTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863D5AA2FC3CCFFE604F8721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C88FA2D32AEEBBF33F36FB17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4C87038B1BED59E5341B58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watch/Pods-Watch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5510812D0ED50B2D5E447D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E62B23D4FEA022A378B30253 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTimerTests/Pods-SpeedTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AAA65CB1DE0BA049389239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9AEE80755DD26063C9CD154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watch Extension/Pods-Watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C06DB1F1CCDCB450044C773 /* Sources */ = {
@@ -739,8 +967,9 @@
 		};
 		4C06DB4E1CCDCB450044C773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5424A3D7D4A73319BB7DD60E /* Pods-SpeedTimer.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -757,8 +986,9 @@
 		};
 		4C06DB4F1CCDCB450044C773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B228AD79EB4E18C36BEBE3C8 /* Pods-SpeedTimer.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Nguyen (4HM2HG7GK8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -775,6 +1005,7 @@
 		};
 		4C06DB511CCDCB450044C773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFA356D4958A72F2512A554 /* Pods-SpeedTimerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpeedTimerTests/Info.plist;
@@ -788,6 +1019,7 @@
 		};
 		4C06DB521CCDCB450044C773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA9371829A2E3E0A19C9B98 /* Pods-SpeedTimerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpeedTimerTests/Info.plist;
@@ -801,6 +1033,7 @@
 		};
 		4C06DB541CCDCB450044C773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E126169146852BAA0FAB89B2 /* Pods-SpeedTimerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SpeedTimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -813,6 +1046,7 @@
 		};
 		4C06DB551CCDCB450044C773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A51E149476DB5740B4494B /* Pods-SpeedTimerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SpeedTimerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -825,6 +1059,7 @@
 		};
 		4C3CDDAB1CED39CF003827F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C7C70945B2C6EBA59704E8 /* Pods-Watch Extension.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Watch Extension/Info.plist";
@@ -842,6 +1077,7 @@
 		};
 		4C3CDDAC1CED39CF003827F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3FBF82FE2FD70BC6E957F3 /* Pods-Watch Extension.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Nguyen (4HM2HG7GK8)";
@@ -860,6 +1096,7 @@
 		};
 		4C3CDDAF1CED39CF003827F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D9B972447C3B972B4C9DAB /* Pods-Watch.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -878,6 +1115,7 @@
 		};
 		4C3CDDB01CED39CF003827F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A48CD7F7D5C6A3CD83293A /* Pods-Watch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

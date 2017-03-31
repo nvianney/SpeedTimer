@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpeedTimer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpeedTimerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpeedTimerUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Watch Extension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Watch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4288642EE234DD60CF66EE17B7ACDAE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B6D4D250EE77B7F19C3F68E72BB708D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D878D9E6263B3AB51A52435709B21AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>998BF3F2035DC0599D71B58EC81064BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBDD293D1D4BE7AB9134014B23416695</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
