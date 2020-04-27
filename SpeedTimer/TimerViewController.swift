@@ -3,7 +3,7 @@
 //  Cube Timer
 //
 //  Created by Vianney Nguyen on 2016-04-24.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import UIKit
@@ -89,7 +89,7 @@ class TimerViewController: UIViewController {
     }
     
     var overrideStart = false // If true, releasing the finger from the screen will start the stopwatch
-    func touchpadTouchEvent(_ sender:TouchEventGestureRecognizer) {
+    @objc func touchpadTouchEvent(_ sender:TouchEventGestureRecognizer) {
         let inspectionTime = UserData.inspectionTime
         
         if isCounting == false { // Timer isn't running
@@ -224,7 +224,7 @@ class TimerViewController: UIViewController {
 
     var canSetInitialAcceleration = false
     // Updates the text of the timer. Called when the stopwatch is running. Also checks for accelerometer updates
-    func updateTimerText() -> Double {
+    @objc func updateTimerText() -> Double {
         let currentDate = Date.init() // Current time
         let timeInterval = currentDate.timeIntervalSince(stopwatchStartTime!) // Interval between start time and current time
         
@@ -269,7 +269,7 @@ class TimerViewController: UIViewController {
         return timeInterval
     }
     
-    func updateInspection() {
+    @objc func updateInspection() {
         // Get the duration since the inspection has started, subtracted from the inspectionTime
         let timeLeft = Double(UserData.inspectionTime) - Date().timeIntervalSince(inspectionStartTime!)
         
@@ -288,7 +288,7 @@ class TimerViewController: UIViewController {
     }
     
     // Called after the user stopped the stopwatch
-    func stoppedTimerTextColorAnimation() {
+    @objc func stoppedTimerTextColorAnimation() {
         if timerLabel.textColor == UIColor.green { // In case if the user tapped the screen before this method has been called. Tapping causes the text color to change
             timerLabel.textColor = UIColor.white
         }

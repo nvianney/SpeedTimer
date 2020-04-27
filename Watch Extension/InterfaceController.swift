@@ -3,7 +3,7 @@
 //  Watch Extension
 //
 //  Created by Vianney Nguyen on 2016-05-18.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import WatchKit
@@ -59,7 +59,7 @@ class InterfaceController: WKInterfaceController {
         }
     }
     
-    func restoreTouchpadColor() {
+    @objc func restoreTouchpadColor() {
         if !isRunning {
             touchpad.setBackgroundColor(waitingColor)
         }
@@ -77,7 +77,7 @@ class InterfaceController: WKInterfaceController {
         touchpad.setBackgroundColor(runningColor)
     }
     
-    func updateTimer() {
+    @objc func updateTimer() {
         let timeInterval = Date().timeIntervalSince(stopwatchStartTime!)
         touchpad.setTitle(String(format: "%.1f", timeInterval))
     }

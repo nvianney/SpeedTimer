@@ -3,7 +3,7 @@
 //  SpeedTimer
 //
 //  Created by Vianney Nguyen on 2016-05-01.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import UIKit
@@ -55,7 +55,7 @@ class RecordsSettingTableViewController: UITableViewController, UIActionSheetDel
         }
     }
     
-    func sliderMoved(_ sender:UISlider) {
+    @objc func sliderMoved(_ sender:UISlider) {
         if sender === averageSlider {
             // Set for increments of 1
             sender.setValue(roundf(sender.value), animated: false) // Increment of 1

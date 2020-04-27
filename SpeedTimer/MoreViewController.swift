@@ -3,7 +3,7 @@
 //  SpeedTimer
 //
 //  Created by Vianney Nguyen on 2016-05-01.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import UIKit
@@ -24,7 +24,7 @@ class MoreViewController: UIViewController {
         algorithmsButton.addGestureRecognizer(algorithmTapListener)
     }
     
-    func buttonTapped(_ sender:UITapGestureRecognizer) {
+    @objc func buttonTapped(_ sender:UITapGestureRecognizer) {
         if (sender.view === settingsButton) {
             performSegue(withIdentifier: "settingsSegue", sender: self)
         } else if (sender.view == algorithmsButton) {

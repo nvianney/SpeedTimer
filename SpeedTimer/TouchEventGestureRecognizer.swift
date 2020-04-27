@@ -3,7 +3,7 @@
 //  Cube Timer
 //
 //  Created by Vianney Nguyen on 2016-04-25.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import UIKit
@@ -44,7 +44,7 @@ class TouchEventGestureRecognizer: UIGestureRecognizer {
         }
     }
     
-    internal func checkForLongPressFromTimer() {
+    @objc internal func checkForLongPressFromTimer() {
         // Check if the finger is still down
         if currentState != .released {
             // User performed long press

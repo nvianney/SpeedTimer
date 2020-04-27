@@ -3,7 +3,7 @@
 //  Cube TimerTests
 //
 //  Created by Vianney Nguyen on 2016-04-24.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import XCTest

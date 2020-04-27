@@ -3,7 +3,7 @@
 //  Cube Timer
 //
 //  Created by Vianney Nguyen on 2016-04-24.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import UIKit
@@ -78,7 +78,7 @@ class RecordsViewController: UIViewController {
     }
 
     // Called when the user taps the BarButtonItem. This is set in viewDidLoad
-    func userTappedBarButtonItem(_ sender: UIBarButtonItem) {
+    @objc func userTappedBarButtonItem(_ sender: UIBarButtonItem) {
         let currentlyEditing = recordsTableView.isEditing
         var nextBarButtonItem:UIBarButtonItem? = nil
         
@@ -141,12 +141,12 @@ class RecordsTableViewDelegate: UITableView, UITableViewDataSource, UITableViewD
     }
     
     // The editing style when the user taps on the edit(BarButtonItem) button
-    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         return .delete
     }
     
     // Called when the user taps on delete on a cell
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             UserData.records.remove(at: (indexPath as NSIndexPath).row)
             self.deleteRows(at: [indexPath], with: .bottom)

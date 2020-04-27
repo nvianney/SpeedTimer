@@ -3,7 +3,7 @@
 //  Watch Extension
 //
 //  Created by Vianney Nguyen on 2016-05-18.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import WatchKit

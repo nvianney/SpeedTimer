@@ -3,7 +3,7 @@
 //  SpeedTimer
 //
 //  Created by Vianney Nguyen on 2016-04-28.
-//  Copyright © 2016 MatthewWorld. All rights reserved.
+//  Copyright © 2016 Paperatus. All rights reserved.
 //
 
 import UIKit
@@ -61,7 +61,7 @@ class RecordsGraphViewController: UIViewController {
         }
         
         // The array containing a set of points connected by lines (line chart)
-        let lineChartDataSet:LineChartDataSet = LineChartDataSet(values: lineChartDataEntries, label:"Time")
+        let lineChartDataSet:LineChartDataSet = LineChartDataSet(entries: lineChartDataEntries, label:"Time")
         lineChartDataSet.lineWidth = 3 // Line width
         lineChartDataSet.setColor(UIColor(red: 50.0/255.0, green: 200.0/255.0, blue: 150.0/255.0, alpha: 1), alpha: 1) // Line color
         lineChartDataSet.drawCirclesEnabled = false // Circles on P(x, y)
